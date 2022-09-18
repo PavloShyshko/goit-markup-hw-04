@@ -7,6 +7,8 @@
   --section-background-color: #f5f4fa;
 }
 
+
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -120,6 +122,21 @@ img {
   text-decoration: none;
 }
 
+.mail-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.phone-icon{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+  
+}
+
 .current {
   color: var(--accent-color);
 }
@@ -129,10 +146,11 @@ img {
   color: var(--accent-color);
 }
 
-.contact-list .link:hover,
-.contact-list .link:focus {
+.contact-item:hover{
   color: var(--accent-color);
 }
+
+
 
 /*hero section*/
 
@@ -331,6 +349,34 @@ img {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.social-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px  32px 30px 32px;
+}
+
+.social-item{
+  width:40px;
+  height: 40px;
+  background-color: #2196f3;
+}
+
+.social-item:not(:last-child){
+  margin-right: 10px;
+}
+
+/*clients*/
+
+.clients-logo{
+  display: flex;
+
+}
+
+.clients-logo > li> a{
+  display: iline-block;
 }
 
 /*footer*/
